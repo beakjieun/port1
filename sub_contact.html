@@ -1,0 +1,163 @@
+﻿
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="UTF-8">      
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>sub_contact</title>
+
+    <!-- 구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/common.css" type="text/css">
+    <link rel="stylesheet" href="css/sub_style_contact.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
+    <script src="js/gmaps.js"></script>
+    
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/sub-contact_custom.js"></script>
+</head>
+<body>
+    <div id="header">
+       <div class="menu">
+           <p class="more"><img src="img/menu.png"></p>
+            <ul class="clfix">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sub_about.html">About Me</a></li>
+                <li><a href="sub_work.html">Our Work</a></li>
+                <li class="on"><a href="sub_contact.html">Contact Us</a></li>
+            </ul>
+            <p class="home"><a href="index.html">Home</a></p>
+        </div>
+       
+        <div class="main">
+            <div class="main_text">
+                <p class="main_title">
+                    <span>Contact</span> Us
+                </p>
+                <p class="main_text">
+                    I want to be a Web-Publisher to make the world on the web.<br>
+                    become a more advanced publisher in the future.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="more_menu">
+        <div class="wrap">
+            <p class="close">close</p>
+            <ul class="menu clfix">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sub_about.html">About Me</a></li>
+                <li><a href="sub_work.html">Our Work</a></li>
+                <li><a href="sub_contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="container">
+        <div class="content_form clfix">
+            <div class="form">
+                <div class="add">
+                    <p class="add_title">Address</p>
+                    <p class="add_text">
+                        Gangnam Finance Center 152, Teheranro-Gangnam, Seoul, South Korea
+                        <br><br>
+                        TEL. 010-1234-5678<br>
+                        E-.MAIL. aaa1234@naver.com<br>
+                        HOMEPAGE. http://www.webpublisher.co.kr
+                    </p>
+                </div>
+                <div class="inquiry">
+                    <p class="inquiry_title">Inquiry</p>
+                    <p class="inquiry_text">
+                        If you leave any questions we will contact you immediately.
+                    </p>
+                    
+                    <form action="ex.php" method="post">
+                        <table class="tb">
+                            <tr>
+                                <td>
+                                    <input type="text" id="text_1" maxlength="20" name="t_1">
+                                </td>
+                                <td>
+                                    <input type="text" id="text_2" maxlength="20" name="t_2">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <textarea id="text_3" class="textarea" name="t_3"></textarea>
+                                </td>
+                            </tr>
+                        </table>
+                        <input type="submit" class="inquiry_btn" value="SEND">
+                    </form>
+                </div>
+            </div>
+            
+            <div id="map"></div>
+            
+        </div>
+        
+        <div class="content_bg"></div>
+        
+        <div class="content_txt">
+            <div class="center">
+                <p class="contact_title">Contact</p>
+                <p class="contact_text">
+                    I'm a Web Publisher from Korea. I love CSS and JavaScript which along with other acronyms gives me superpower to develop compelling Web Publisher, intuitive<br>
+                    yet minimalistic interfaces, and engaging designs I work to the principle that Simple  is beautiful, while carefully including the finest details and interactions.<br>
+                    <br><br>
+                    I'm a Web Publisher from Korea. I love CSS and JavaScript which along with other acronyms gives me superpower to develop compelling<br>
+                    Web Publisher, intuitive yet minimalistic interfaces, and engaging designs I work to the principle that Simple  is beautiful, while carefully including the finest details and interactions.<br>
+                    I'm a Web Publisher from Korea. I love CSS and JavaScript which along with other acronyms gives me superpower to develop compelling Web Publisher. <br>
+                    <br><br>
+                    I'm a Web Publisher from Korea. I love CSS and JavaScript which along with other acronyms gives me superpower to develop compelling Web Publisher, intuitive<br>
+                    yet minimalistic interfaces, and engaging designs I work to the principle that Simple  is beautiful, while carefully including the finest details and interactions.
+                </p>
+            </div>
+        </div>
+        
+        <div class="content_banner">
+            <div class="text_box">
+                <p class="contact_title">
+                    Contact <span>Us</span>
+                </p>
+                <p class="contact_text">
+                    Gangnam Finance Center 152, Teheranro-Gangnam, Seoul, South Korea
+                </p>
+                <div class="contact_btn">
+                    <a href="sub_contact.html">
+                        Detail View
+                    </a>
+                </div>
+            </div> 
+        </div>
+        
+    </div>
+    
+    <div id="footer">
+        <div class="center">
+            <p class="address">
+                Gangnam Finance Center 152, Teheranro-Gangnam, Seoul, South Korea<br>
+                T. 010-1234-5678　　E. aaa123@naver.com　　H. http://www.webpublisher.co.kr
+                <span>
+                Copyright 2017 © Precede All Rights Reserved
+					</span>
+            </p>
+            <ul class="sns_icon">
+                <li><a href="#"><img src="img/f_icon_01.png"></a></li>
+                <li><a href="#"><img src="img/f_icon_02.png"></a></li>
+                <li><a href="#"><img src="img/f_icon_03.png"></a></li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>

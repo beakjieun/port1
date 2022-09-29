@@ -1,0 +1,457 @@
+body {letter-spacing: 1px;}
+/*----------------------------header ìž‘ì—…*/
+#header{
+    position:relative; 
+}
+#header .menu p.more{
+    position:absolute; top:50%; left:0; margin-top:-9px;
+    cursor:pointer; display:none;
+}
+#header .menu{
+    background-color:rgba(0,0,0,0.7); z-index:50; 
+    position:fixed; top:0px; left:0px;
+    width:100%; 
+}
+#header .menu ul{
+    padding-top:20px; padding-bottom:20px;
+    width:680px; margin:0 auto;
+}
+#header .menu ul li{
+    float:left; margin-left:30px; margin-right:30px;
+}
+#header .menu ul li a{
+    color:#fff; font-size:25px;
+}
+#header .menu ul li.on a{
+    color:#80bce2; font-weight:bold;
+}
+#header .menu ul li:hover a{
+    color:#80bce2; font-weight:bold;
+}
+
+#header .menu .home{
+	display:none;
+}
+
+#header .main{
+    height:900px;
+    background:url(../img/sub_main_03.jpg) no-repeat center;
+    background-size:cover; 
+}
+#header .main .main_text{
+    color:#fff; text-align:center; width:100%; height:100%; padding-top:350px; 
+}
+#header .main .main_text p.main_title{
+    font-size:70px; margin-bottom:25px; text-align:center;
+}
+#header .main .main_text p.main_title span{ color:#80bce2; }
+#header .main .main_text p.main_text{
+    font-size:15px; text-align:center; padding-top:0px;
+    line-height:23px; height:auto;
+}
+
+/*more_menu ìž‘ì—…*/
+#more_menu{
+    width:250px; height:100%; position:fixed; top:0px; left:-250px;
+    background-color:#000; z-index:60; border-right: 3px solid #534a4a;
+	transition:all 0.5s;
+}
+#more_menu .wrap p.close{
+    width:45px; height:40px; position:absolute; top:10px; right:10px;
+    background-color:#777; cursor:pointer; color:#fff; border:1px solid #ccc; 
+    font-size:13px; line-height:40px; text-align:center; font-weight:bold;
+}
+#more_menu .wrap p.close:hover{
+    color:#deb74c;
+}
+
+#more_menu .wrap .menu{
+    margin-top:100px; 
+}
+#more_menu .wrap .menu li a{
+    display:block; padding-top:10px; 
+    padding-bottom:10px; border-bottom:1px solid #ccc; 
+    margin-bottom:10px; font-size:16px; 
+    padding-left:10%; color:#ccc; font-weight:bold;
+}
+#more_menu .wrap .menu li a:hover{
+    color:#80bce2;
+}
+
+/*----------------------------container ìž‘ì—…*/
+/*1ë²ˆì¨° content_form*/
+/*í¼íƒœê·¸*/
+.content_form .form{ 
+    width:50%; float:left;
+    color:#777; padding-left:10%;
+    padding-top:80px; padding-bottom:100px; 
+}
+.content_form .form .add{
+    margin-bottom:110px; width:90%;
+}
+.content_form .form .add p.add_title{
+    font-size:20px; font-weight:bold;
+    margin-bottom:25px;
+}
+.content_form .form .add p.add_text{
+    font-size:14px; line-height:23px;
+}
+
+.content_form .form .inquiry{
+    width:95%; 
+}
+.content_form .form .inquiry p.inquiry_title{
+    font-size:20px; font-weight:bold;
+    margin-bottom:25px;
+}
+.content_form .form .inquiry p.inquiry_text{
+    font-size:14px; line-height:23px;
+    margin-bottom:20px; padding-right:5%;
+}
+.content_form .form .inquiry .tb{
+    width:100%; 
+}
+.content_form .form .inquiry .tb tr:nth-child(1) td{
+    width:50%; height:44px; 
+}
+.content_form .form .inquiry .tb tr:nth-child(2) td{
+    height:100px; 
+}
+.content_form .form .inquiry .tb tr #text_1{
+    width:95%; height:30px; color:#777; font-size:14px; 
+    border:1px solid #e6e6e6; padding:5px; 
+}
+.content_form .form .inquiry .tb tr #text_2{
+    width:95%; height:30px; color:#777; font-size:14px; 
+    border:1px solid #e6e6e6; padding:5px; 
+}
+.content_form .form .inquiry .tb tr #text_3{
+    width:195%; height:90px; color:#777; font-size:14px; 
+    border:1px solid #e6e6e6; padding:8px; 
+    resize:none;
+}
+.content_form .form .inquiry .inquiry_btn{
+    width:97.7%; height:40px; font-weight:bold; letter-spacing:2px; 
+    background-color:#363636; color:#fff; border:none; 
+}
+/*ì§€ë„*/
+.content_form #map{
+    width:50%; height:730px;
+    float:right; 
+}
+
+/*----------------------------container ìž‘ì—…*/
+/*2ë²ˆì¨° content_bg*/
+.content_bg{
+    height:470px;
+    background:url(../img/sub_banner_03.jpg) no-repeat center;
+    background-size:cover;
+}
+/*----------------------------container ìž‘ì—…*/
+/*3ë²ˆì¨° content_txt*/
+.content_txt{
+    padding-top:80px; padding-bottom:80px;
+}
+.center {width:1200px; margin:0 auto;}
+.content_txt .contact_title{
+    font-size:20px; font-weight:bold; margin-bottom:30px;
+}
+.content_txt .contact_text{
+    font-size:14px; line-height:23px;
+}
+
+/*----------------------------container ìž‘ì—…*/
+/*4ë²ˆì¨° content_banner*/
+.content_banner{
+    height:410px; background-size:cover;
+    background:url(../img/banner_02.jpg) no-repeat center;
+    color:#fff; font-weight:bold;
+}
+.content_banner .text_box{
+    width:100%; height:410px;
+    padding-top:130px; text-align:center;
+}
+.content_banner p.contact_title{
+    font-size:40px;
+}
+.content_banner p.contact_title span{ color:#80bce2; }
+.content_banner p.contact_text{
+    font-size:15px; margin-bottom:45px;
+    margin-top:25px; 
+}
+.content_banner .contact_btn a{
+    text-align:center; display:block; 
+    color:#ddd;font-size:20px;
+}
+.content_banner .contact_btn a:hover{ color:#aaa; }
+
+/*----------------------------footer ìž‘ì—…*/
+#footer{
+    background-color:#252525; 
+    padding-top:80px; padding-bottom:80px;
+}
+#footer .text_box{
+    float:left; color:#515151; 
+}
+#footer span{ 
+   display:block; margin-top:10px; 
+	color:#555; 
+}
+#footer .address{
+    color:#fff; line-height:22px; margin-bottom:20px;
+    font-size:15px;
+}
+#footer .sns_icon{
+    float:right; 
+}
+#footer .sns_icon li{
+    float:left; margin-left:25px;
+}
+#footer .sns_icon li:nth-child(1){
+    margin-left:0px; 
+}
+
+/*----------------------------ë°˜ì‘í˜•1â˜…*/
+@media screen and (max-width: 1200px) {
+        .center{
+            width:90%; margin-left:5%; margin-right:5%;
+        }
+        /*----------------------------header ìž‘ì—…*/
+        #header .menu ul{
+            padding-top:25px; padding-bottom:25px;
+            width:80%; margin-left:10%; margin-right:10%;
+        }
+        #header .menu ul li{
+            margin-left:2.5%; margin-right:2.5%;
+        }
+        #header .menu ul li a{
+            font-size:23px;
+        }
+    
+        #header .main{
+            height:780px;
+        }
+        #header .main .main_text{
+            padding-top:350px;
+        }
+        #header .main .main_text p.main_title{
+            font-size:70px; margin-bottom:25px;
+        }
+        #header .main .main_text p.main_text{
+            font-size:15px; padding-top:0px;
+            line-height:23px;
+        }
+
+        /*----------------------------container ìž‘ì—…*/
+        /*1ë²ˆì¨° content_form*/
+        /*í¼íƒœê·¸*/
+        .content_form .form{ 
+            width:50%;
+            padding-left:5%;
+            padding-top:80px; padding-bottom:100px; 
+        }
+        .content_form .form .add{
+            margin-bottom:110px; width:90%;
+        }
+        .content_form .form .add p.add_title{
+            font-size:20px; margin-bottom:25px;
+        }
+        .content_form .form .add p.add_text{
+            font-size:14px; line-height:23px;
+        }
+
+        .content_form .form .inquiry{
+            width:95%; 
+        }
+        .content_form .form .inquiry p.inquiry_title{
+            font-size:20px; margin-bottom:25px;
+        }
+        .content_form .form .inquiry p.inquiry_text{
+            font-size:14px; line-height:23px;
+            margin-bottom:20px; padding-right:5%;
+        }
+        .content_form .form .inquiry .tb tr #text_1{
+            width:95%; height:30px; font-size:14px; 
+        }
+        .content_form .form .inquiry .tb tr #text_2{
+            width:95%; height:30px; font-size:14px; 
+        }
+        .content_form .form .inquiry .tb tr #text_3{
+            width:195%; height:90px; font-size:14px; 
+        }
+        .content_form .form .inquiry .inquiry_btn{
+            width:97.7%; height:40px;
+        }
+        /*ì§€ë„*/
+        .content_form #map{
+            width:50%; height:730px;
+        }
+
+        /*----------------------------container ìž‘ì—…*/
+        /*2ë²ˆì¨° content_bg*/
+        .content_bg{
+            height:380px;
+            background:url(../img/sub_banner_03.jpg) no-repeat center;
+            background-size:cover;
+        }
+        /*----------------------------container ìž‘ì—…*/
+        /*3ë²ˆì¨° content_txt*/
+        .content_txt{
+            padding-top:80px; padding-bottom:80px;
+        }
+        .content_txt .contact_title{
+            font-size:20px; margin-bottom:30px;
+        }
+        .content_txt .contact_text{
+            font-size:14px; line-height:23px;
+        }
+
+        /*----------------------------container ìž‘ì—…*/
+        /*4ë²ˆì¨° content_banner*/
+        .content_banner{
+            height:380px;
+        }
+        .content_banner .text_box{
+            height:380px; padding-top:110px;
+        }
+        .content_banner p.contact_title{
+            font-size:40px;
+        }
+        .content_banner p.contact_text{
+            font-size:15px; margin-bottom:45px;
+            margin-top:25px; 
+        }
+        .content_banner .contact_btn a{
+            font-size:20px;
+        }
+
+        /*----------------------------footer ìž‘ì—…*/
+        #footer{
+            padding-top:80px; padding-bottom:80px;
+        }
+        #footer .center{
+            width:90%; margin-left:5%; margin-right:5%; 
+        }
+        #footer .text_box{
+            width:75%;
+        }
+        #footer .address{
+            color:#fff; line-height:22px; margin-bottom:20px;
+            font-size:15px;
+        }
+        #footer .sns_icon{
+            
+        }
+        #footer .sns_icon li{
+            float:left; margin-left:25px;
+        }
+}
+
+/*-------------------ë°˜ì‘í˜•ì¤‘ê°„-------------------*/
+/*more ë©”ë‰´ ë“±ìž¥ */
+@media screen and (max-width:1000px) {
+        #header .menu p.more{
+            position:absolute; top:50%; left:5%; margin-top:-9px;
+            cursor:pointer; display:block;
+        }
+        #header .menu{
+            background-color:rgba(0,0,0,0.7); height:50px;
+            position:fixed; top:0px; left:0px;
+        }
+        #header .menu ul{
+            display:none;
+        }
+		#header .menu .home{
+			display:block; width:100%; text-align:center; line-height:50px;
+		}
+		#header .menu .home a{
+			font-size:25px; font-weight:bold; color:#80bce2;
+		}
+}
+
+/*----------------------------ë°˜ì‘í˜•2â˜…*/
+@media screen and (max-width: 640px) {
+        /*----------------------------header ìž‘ì—…*/
+        #header .menu ul{
+            padding-top:30px; padding-bottom:30px;
+            width:80%; margin-left:15%; margin-right:5%;
+        }
+        #header .menu ul li a{
+            font-size:17px; display:none;
+        }
+    
+        #header .main{
+            height:450px;
+        }
+        #header .main .main_text{
+            padding-top:130px;
+            width:90%; margin-left:5%; margin-right:5%; 
+        }
+        #header .main .main_text p.main_title{
+            font-size:60px; margin-bottom:20px;
+        }
+        #header .main .main_text p.main_text{
+            font-size:14px;
+        }
+
+        /*----------------------------container ìž‘ì—…*/
+        /*1ë²ˆì¨° content_form*/
+        /*í¼íƒœê·¸*/
+        .content_form .form{ 
+            width:90%; padding-left:0;
+            margin-left:5%; margin-right:5%;
+        }
+        /*ì§€ë„*/
+        .content_form #map{
+            width:100%; height:500px;
+        }
+
+        /*----------------------------container ìž‘ì—…*/
+        /*2ë²ˆì¨° content_bg*/
+        .content_bg{
+            height:300px;
+        }
+        /*----------------------------container ìž‘ì—…*/
+        /*3ë²ˆì¨° content_txt*/
+
+        /*----------------------------container ìž‘ì—…*/
+        /*4ë²ˆì¨° content_banner*/
+        .content_banner{
+            height:285px;
+        }
+        .content_banner .text_box{
+            height:285px; padding-top:70px;
+            width:90%; margin-left:5%; margin-right:5%; 
+        }
+        .content_banner p.contact_title{
+            font-size:35px;
+        }
+        .content_banner p.contact_text{
+            font-size:14px; margin-bottom:30px; margin-top:20px; 
+        }
+
+        /*----------------------------footer ìž‘ì—…*/
+        #footer{
+            padding-top:70px; padding-bottom:70px;
+        }
+        #footer .text_box{
+            width:100%; text-align:center; 
+        }
+        #footer .address{
+            color:#fff; line-height:22px; margin-bottom:20px;
+            font-size:15px;
+        }
+        #footer .sns_icon{
+            margin-top:30px; width:93px; height:18px; 
+            margin-right:36%;
+        }
+}
+
+
+
+
+
+
+
+
+
